@@ -8,8 +8,7 @@ public class Quest_Matriz_1{
         for(int i = 0; i<4;i++){
             for(int j = 0; j<4;j++){
                 System.out.printf("Insira o valor de [%d][%d]:", i, j);
-                int x = ler.nextInt();
-                matriz[i][j] = x;
+                matriz[i][j] = ler.nextInt();
             }
 
 
